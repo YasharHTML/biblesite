@@ -6,3 +6,19 @@ body {
     overflow-y: scroll;
     height: 400px;
 }
+
+@font-face {
+    font-family: DAYROM_;
+    src: url("DAYROM_.tff");
+}
+
+.biblebox {
+    margin-top: 10px;
+    background-color: #FFFAFA;
+    width: 100vw;
+    height: 80vh;
+    overflow-y: scroll;
+    border-radius: 1%;
+    font-family: DAYROM_;
+    font-size: 18px;
+}
