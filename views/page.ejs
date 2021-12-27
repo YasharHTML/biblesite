@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="/css/script.js"></script>
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
+    <meta name="Description" content="Turkce Kutsal kitab sitesi">
+    <title> Kutsal kitab oku </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                BirazIncilOku.org
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Eski ahit
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Başlanğıç</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Çıkış</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Levioğulları</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Sayılar</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Kanunun Tekrarı</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yeşu</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Hakimler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Rut</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Samuel</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Samuel</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Krallar</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Krallar</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Tarihler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Tarihler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Ezra</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Nehemya</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Ester</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Eyüp</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Zebur</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Süleyman'ın Özdeyişleri</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Vaiz</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Ezgiler Ezgisi</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yeşaya</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yeremya</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Ağıtlar</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Hezekiel</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Daniel</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Hoşea</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yoel</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Amos</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Obadya</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yunus</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Mika</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Nahum</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Habakkuk</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Tsefanya</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Haggay</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Zekeriya</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Malaki</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Yeni ahit
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Matta</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Markos</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Luka</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yuhanna</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Elçilerin İşleri</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Romalılar</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Korintoslular</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Korintoslular</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Galatyalılar</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Efesoslular</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Filipililer</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Koloseliler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Selanikliler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Selanikliler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Timoteos</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Timoteos</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Titus</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Filimon</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">İbraniler</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yakup</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Petrus</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Petrus</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">1. Yuhanna</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">2. Yuhanna</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">3. Yuhanna</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Yahuda</a></li>
+                            <li><a class="dropdown-item" onclick="send(this.innerText)">Vahiy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container biblebox">
+        <% if(typeof x !== 'undefined'){ %>
+            <% for(var i = 1; i < x + 1; i++) { %>
+                <button type="button" class="btn specialbtn btn-primary btn-square-md" onclick="finalsend(this.innerText)"><%= i %></button>
+                <% } %>
+                    <% } %>
+    </div>
+</body>
+
+</html>
